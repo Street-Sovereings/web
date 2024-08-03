@@ -17,7 +17,7 @@ export default function App() {
       <h1>test </h1>
       </>
     ) 
-  } else {
+  } else if (auth == "false") {
     return (
       <>
       <h1>Please. auth first</h1>
