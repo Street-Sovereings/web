@@ -7,10 +7,9 @@ export default function App() {
   const [auth, setAuth] = useState<string | undefined>(undefined);
   useEffect(() => {
     setAuth(GetData.GetInjectorCookie());
-  }, []);
+  }, []); 
   
-  
-  if (auth) {
+  if (auth == "true") {
     return (
       <>
       <Navbar/>
