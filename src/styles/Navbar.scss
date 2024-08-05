@@ -1,6 +1,7 @@
 .navbar-view {
     background-color: rgb(53, 53, 53);
     display: flex;
+    justify-content: center;
 }
 
 .svg-button {
@@ -9,4 +10,13 @@
     border: none;
     background: none;
     cursor: pointer;
+    padding-left: 10px;
+}
+
+.centered-buttons button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 20px;
 }

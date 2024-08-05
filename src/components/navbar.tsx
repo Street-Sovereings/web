@@ -13,7 +13,11 @@ export default function Navbar() {
                         <path d="M94 239.5H122" stroke="#E6DDCC" stroke-width="10" />
                     </svg>
                 </button>
-                <div className="centered-buttons"></div>
+                <div className="centered-buttons">
+                    <button>Download</button>
+                    <button>Forum</button>
+                    <button>Careers</button>
+                </div>
 
             </div>
         </>
