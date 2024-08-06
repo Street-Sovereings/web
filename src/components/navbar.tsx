@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <>
             <div className="navbar-view">
-                <button type="button" aria-label="Main page" className="svg-button">
+                <button onClick={() => window.location.href = '/'} type="button" aria-label="Main page" className="svg-button">
                     <svg width="50" height="50" viewBox="0 0 218 245" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M208.5 165.5L109.5 10L10 165.5H208.5Z" stroke="#E6DDCC" stroke-width="10" />
                         <path d="M142.5 134.5L108.5 75.5L75.5 134.5H142.5Z" stroke="#E6DDCC" stroke-width="10" />
@@ -14,9 +14,9 @@ export default function Navbar() {
                     </svg>
                 </button>
                 <div className="centered-buttons">
-                    <button>Download</button>
-                    <button>Forum</button>
-                    <button>Careers</button>
+                    <button onClick={() => window.location.href = '/download'}>Download</button>
+                    <button onClick={() => window.location.href = '/forum'}>Forum</button>
+                    <button onClick={() => window.location.href = '/careers'}>Careers</button>
                 </div>
 
             </div>
